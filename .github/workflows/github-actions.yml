@@ -1,0 +1,10 @@
+name: Test Action
+on: [push]
+jobs:
+  Mon-Premier-Job:
+    runs on: ubuntu
+    steps:
+      - run: echo "Je fais les tests"
+      - run: echo "Je fais le build"
+
+      
